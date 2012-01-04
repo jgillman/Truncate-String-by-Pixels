@@ -1,69 +1,3 @@
-<html>
-<head>
-	<title></title>
-
-
-
-
-
-
-	<style type="text/css">
-	body {
-		font: 12px Helvetica, Arial, sans-serif;
-	}
-
-	ul, li {
-		margin:0;
-		padding:0;
-	}
-
-	.container {
-		width: 100px;
-		background: #aaa;
-		overflow: visible;
-	}
-
-	li {
-		width: 100px;
-		font: bold 14px Georgia, serif;
-		background: #ddd;
-	}
-
-
-	</style>
-
-
-
-
-
-
-
-</head>
-<body>
-
-	<div class="container">100px wide</div>
-
-	<ul>
-		<li><span id="sample"> what           this is i don't even</span></li>
-		<li><span>this is a shorter one</span></li>
-		<li><span>DEEERRRRRRRRRR HUR HUR HURRRRR</span></li>
-	</ul>
-
-	<div class="container">100px wide</div>
-
-	<ul class="trunkUs">
-		<li><span> what           this is i don't even</span></li>
-		<li><span>this is a shorter one</span></li>
-		<li><span>DEEERRRRRRRRRR HUR HUR HURRRRR</span></li>
-	</ul>
-
-	<div class="container">100px wide</div>
-
-
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-
-<script type="text/javascript">
 var getStyledStringWidth = function(targetStyleElm, string) {
 	var attr = [
 		'font-family','font-size','font-weight','font-style','text-transform',
@@ -163,7 +97,4 @@ $('.trunkUs li span').each(function(i, elm) {
 	truncateStyledStringToPixelWidth( $(elm), 100 );
 });
 
-</script>
 
-</body>
-</html>
